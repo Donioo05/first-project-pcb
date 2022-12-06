@@ -1439,7 +1439,7 @@
     (uuid 286123f0-4f5c-443b-958e-bff37057547e)
     (property "Reference" "J1" (id 0) (at 121.92 50.8 0))
     (property "Value" "USB_B_Micro" (id 1) (at 121.92 53.34 0))
-    (property "Footprint" "" (id 2) (at 125.73 64.77 0)
+    (property "Footprint" "random-keyboard-parts:Molex-0548190589" (id 2) (at 125.73 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 125.73 64.77 0)
@@ -1758,7 +1758,7 @@
     (uuid 85096f46-9dbf-4764-9bad-58dbd71db34c)
     (property "Reference" "SW1" (id 0) (at 57.15 50.8 0))
     (property "Value" "SW_Push" (id 1) (at 57.15 53.34 0))
-    (property "Footprint" "random-keyboard-parts:Molex-0548190589" (id 2) (at 57.15 53.34 0)
+    (property "Footprint" "random-keyboard-parts:SKQG-1155865" (id 2) (at 57.15 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 53.34 0)
@@ -2080,7 +2080,7 @@
       (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Wuerth_696103101002-SMD_Horizontal_Open")
     )
     (path "/286123f0-4f5c-443b-958e-bff37057547e"
-      (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "")
+      (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "random-keyboard-parts:Molex-0548190589")
     )
     (path "/152fc720-f34f-4984-812b-795bdc9a95ce"
       (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "")
@@ -2107,7 +2107,7 @@
       (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/85096f46-9dbf-4764-9bad-58dbd71db34c"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:Molex-0548190589")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:SKQG-1155865")
     )
     (path "/3e7be21d-6b73-43ce-85e9-9d2bc1b07b9b"
       (reference "U1") (unit 1) (value "ATmega32U4-A") (footprint "Package_QFP:TQFP-44_10x10mm_P0.8mm")
